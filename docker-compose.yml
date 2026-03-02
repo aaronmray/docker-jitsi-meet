@@ -121,7 +121,6 @@ services:
             - LETSENCRYPT_DOMAIN
             - LETSENCRYPT_EMAIL
             - LETSENCRYPT_USE_STAGING
-            - LETSENCRYPT_ACME_HTTP_PORT
             - LETSENCRYPT_ACME_SERVER
             - MATOMO_ENDPOINT
             - MATOMO_SITE_ID
