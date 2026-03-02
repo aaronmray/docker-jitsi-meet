@@ -1,4 +1,4 @@
-{{ $HTTP_PORT := .Env.HTTPS_PORT | default "80" -}}
+{{ $HTTP_PORT := .Env.HTTP_PORT | default "80" -}}
 {{ $HTTPS_PORT := .Env.HTTPS_PORT | default "443" -}}
 
 server {
